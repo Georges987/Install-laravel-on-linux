@@ -8,7 +8,7 @@
 Launch this command
 
 ``` sh
-sudo apt-get install -y git curl wget zip unzip
+sudo apt-get install -y git curl wget zip unzip git
 ```
 
 ## Install php
