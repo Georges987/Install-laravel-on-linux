@@ -21,11 +21,19 @@ sudo apt-get install -y php php-fpm libapache2-mod-php php-cli php-curl php-mysq
 
 ## Install composer
 
+The most simple way is
+
+``` sh
+sudo apt install composer
+```
+
+use that if you're confident
 
 ``` sh
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 sudo chown -R $USER $HOME/.composer
 ```
+
 
 ## Launch your first laravel project
 
